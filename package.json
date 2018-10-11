@@ -1,0 +1,33 @@
+{
+  "name": "pikmin",
+  "version": "1.0.0",
+  "description": "Intermediate language for the Pico-8",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ava test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asterick/pikmin.git"
+  },
+  "keywords": [
+    "pico-8",
+    "lua"
+  ],
+  "author": "Bryon Vandiver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asterick/pikmin/issues"
+  },
+  "homepage": "https://github.com/asterick/pikmin#readme",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
